@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "antd": "^3.6.3",
     "axios": "^0.18.0",
     "body-parser": "^1.18.3",
     "classnames": "^2.2.6",
@@ -23,6 +24,7 @@
     "react-router-dom": "^4.3.1",
     "react-s-alert": "^1.4.1",
     "react-scripts": "1.1.4",
+    "react-tabs": "^2.2.2",
     "react-transition-group": "^2.3.1",
     "reactstrap": "^6.1.0",
     "redux": "^4.0.0",

@@ -24,6 +24,8 @@ import { Provider as ReactAlertProvider } from "react-alert";
 import AlertTemplate from "react-alert-template-basic";
 import NotFound from './Components/NotFound/NotFound';
 import PortFolio from './Components/Portfolio/Portofolio';
+import GroupStatistics from './Components/Groups/GroupStatistics';
+import Security from './Components/Settings/Security/Security';
 const options = {
     timeout: 1000,
     position: "top center"
@@ -52,12 +54,15 @@ class Routes extends React.Component {
                             <Route path='/dashboard'   render={(props) => <AdminLayOut IsLoggedIn={IsLoggedIn} {...props} ><DashboardScreen /></AdminLayOut>} />
                             <Route path='/groups'      render={() => <AdminLayOut><GroupsScreen /></AdminLayOut>} />
                             <Route path='/trading'     render={() => <AdminLayOut><Trading /></AdminLayOut>} />
+                            <Route path='/security'     render={() => <AdminLayOut><Security /></AdminLayOut>} />
                             <Route path='/portfolio'     render={() => <AdminLayOut><PortFolio /></AdminLayOut>} />
+                            <Route path='/groupstatistics'      render={() => <AdminLayOut><GroupStatistics /></AdminLayOut>} />
                             <Route path='/creategroup' render={() => <AdminLayOut><CreateGroupScreen /></AdminLayOut>} />
                             <Route path='/changepassword' render={() => <AdminLayOut><ChangePassword /></AdminLayOut>} />
                             <Route path='/editgroup'   render={() => <AdminLayOut><EditGroup /></AdminLayOut>} />
                             <Route path='/changephone' render={() => <AdminLayOut><ChangePhone /></AdminLayOut>} />
                             <Route path='/signup'      render={() => <LoginLayOut><SignUpScreen /></LoginLayOut>} />
+                            
                             <Route path='*'  render={()=><NotFound/>}  />
                     </Switch>
                   

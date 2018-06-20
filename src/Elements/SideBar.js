@@ -79,7 +79,7 @@ class Sidebar extends Component {
                                 <a href="javascript:void(0);"  className="has-child"><img src={require("../img/menu-ic-setting.png")} />Settings</a>
                                 <ul  className="sub-child">
                                     <li><Link to="/trading">Trading</Link></li>
-                                    <li><a href="#">Security</a></li>
+                                    <li><Link to="/security">Security</Link></li>
                                 </ul>
                             </li>
 

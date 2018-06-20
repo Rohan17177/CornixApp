@@ -46,7 +46,7 @@ body {
   padding: 0; }
 
 a {
-  color: #646464; }
+  color: #646464 }
   a:focus {
     color: #646464;
     text-decoration: none; }
@@ -400,7 +400,8 @@ aside {
     display: block;
     cursor: pointer;
     position: relative;
-    padding: 16px 0; }
+    padding: 16px 0;
+    color:#646464 }
     .login-header-menu > li a.ic-img {
       height: 25px;
       width: 25px;

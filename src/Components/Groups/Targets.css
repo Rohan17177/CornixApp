@@ -1,0 +1,52 @@
+.target-wrapper {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap; }
+  
+  .target-wrapper {
+    -webkit-flex-flow: row nowrap;
+    flex-flow: row nowrap; }
+  
+  .buy-targets .radio-wrapper {
+    padding-left: 15px; }
+  
+  .target-wrapper {
+    margin-top: 20px;
+    justify-content: space-between;
+    width: 100%; }
+    .target-wrapper .target-itm {
+      padding: 0 15px; }
+      .target-wrapper .target-itm.green .caret {
+        border-left-color: #3caf96; }
+      .target-wrapper .target-itm.green .buy-ttl {
+        color: #3caf96; }
+      .target-wrapper .target-itm.green .rm-tgt {
+        color: #3caf96;
+        font-weight: 700; }
+      .target-wrapper .target-itm.red .caret {
+        border-left-color: #eb4b55; }
+      .target-wrapper .target-itm.red .buy-ttl {
+        color: #eb4b55; }
+      .target-wrapper .target-itm.red .rm-tgt {
+        color: #eb4b55;
+        font-weight: 700; }
+      .target-wrapper .target-itm .tgt-dual .tgt-dual-itm {
+        margin-right: 20px; }
+        .target-wrapper .target-itm .tgt-dual .tgt-dual-itm .perc {
+          min-width: 38px;
+          display: inline-block;
+          vertical-align: top;
+          color: #989898; }
+      .target-wrapper .target-itm ul li {
+        margin-bottom: 5px; }
+  
+  @media (min-width: 1751px) {
+    .target-wrapper .target-itm .tgt-dual .tgt-dual-itm .perc {
+      min-width: 44px; } }
+  
+  /*# sourceMappingURL=target.css.map */
+  

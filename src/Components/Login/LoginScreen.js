@@ -51,24 +51,26 @@ class LoginScreen extends Component {
                 email: this.state.email,
                 password: this.state.passWord
             }
-            this.props.Login(data).then((res) => {
-                console.log("Response In", res.errors.length)
+                this.context.router.history.push('/dashboard')  
+
+            // this.props.Login(data).then((res) => {
+            //     console.log("Response In", res.errors.length)
             
-                // this.context.router.history.push('/dashboard')  
+            //     // this.context.router.history.push('/dashboard')  
 
-                if(res.data.full_name)
-                {
-                       this.context.router.history.push('/dashboard')  
-                      this.props.alert.success("Logged In");
-                }
-                else if(res.errors.length > 0)
-                {
-                    console.log("ERROR",res.errors)
-                    this.props.alert.error(res.errors[0].message);
-                }
-            }, err => {
+            //     if(res.data.full_name)
+            //     {
+            //            this.context.router.history.push('/dashboard')  
+            //           this.props.alert.success("Logged In");
+            //     }
+            //     else if(res.errors.length > 0)
+            //     {
+            //         console.log("ERROR",res.errors)
+            //         this.props.alert.error(res.errors[0].message);
+            //     }
+            // }, err => {
 
-            })
+            // })
 
         }
     }
@@ -86,12 +88,8 @@ class LoginScreen extends Component {
                             </div>
                         </div>
                         <div className="login-signup-right-coll align-self-center">
-
-
                             <div className="login-signup-section">
-
                                 <div className="login-signup-form">
-                                       
                                         <div className="login-signup-row">
                                             <div className="login-signup-filed">
                                                 <input type="email" name="email" onChange={this.OnChange} value={email} className="form-control" placeholder="Email" />

@@ -44,19 +44,19 @@ import $ from "jquery"
 
          console.log("SESSSION",this.props.IsAuthenticatedSession)
         const value = JSON.parse(localStorage.getItem('IsLoggedIn'))
-        if(value === true)
-        {
+        // if(value === true)
+        // {
 
         
-               var currentPath = this.context.router.route.location.pathname
-               this.context.router.history.push(currentPath)
-        } 
-        else
-        {
+        //        var currentPath = this.context.router.route.location.pathname
+        //        this.context.router.history.push(currentPath)
+        // } 
+        // else
+        // {
               
-              this.context.router.history.push('/login')
-              this.props.alert.info("You Not Logged In")
-        }
+        //       this.context.router.history.push('/login')
+        //       this.props.alert.info("You Not Logged In")
+        // }
 
     }
  
