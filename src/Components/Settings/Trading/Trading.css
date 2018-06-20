@@ -1,0 +1,74 @@
+.fld-tbl {
+    width: 100%;
+    display: table; }
+  
+  .fld-tbl .fld-cell {
+    display: table-cell;
+    vertical-align: middle; }
+  
+  .form-720 {
+    float: left;
+    width: 100%; }
+  
+  .form-720 {
+    max-width: 720px; }
+    .form-720 .form-group {
+      width: 100%;
+      margin-bottom: 28px; }
+  
+  .fld-tbl .fld-cell.fld-lbl {
+    width: 285px;
+    padding-right: 16%;
+    padding-top: 12px;
+    vertical-align: top; }
+  
+  .input-field {
+    width: 100%; }
+    .input-field.percent {
+      max-width: 170px; }
+  
+  .field.inlined.percent {
+    display: inline-block;
+    width: 100%;
+    max-width: 230px;
+    vertical-align: middle;
+    margin-left: 25px; }
+    .field.inlined.percent .input-field {
+      width: 95px;
+      display: inline-block;
+      vertical-align: middle;
+      background: url("../../../img/percent.png") no-repeat;
+      background-position: calc(100% - 10px) 50%;
+      padding-right: 25px; }
+  
+  @media (max-width: 1750px) {
+    .field.inlined.percent .input-field {
+      width: 85px;
+      padding: 10px;
+      padding-right: 25px;
+      background-size: 14px;
+      background-position: calc(100% - 6px) 50%; } }
+  @media (max-width: 1440px) {
+    .field.inlined.percent .input-field {
+      padding: 5px;
+      padding-right: 25px; } }
+  @media (max-width: 991px) {
+    .fld-tbl .fld-cell.fld-lbl {
+      width: 200px;
+      padding-right: 5%; } }
+  @media (max-width: 767px) {
+    .fld-tbl .fld-cell.fld-lbl {
+      width: 160px;
+      padding-top: 8px; } }
+  @media (max-width: 767px) {
+    .fld-tbl .fld-cell {
+      display: block;
+      width: 100% !important;
+      padding: 0 !important;
+      margin-bottom: 10px; }
+  
+    .form-720 .form-group {
+      margin-bottom: 15px; } }
+  
+  /*# sourceMappingURL=trending.css.map */
+  

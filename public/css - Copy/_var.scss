@@ -1,0 +1,133 @@
+$open-sans: 'Open Sans',
+sans-serif;
+$defult-color:#646464;
+$white: #fff;
+$black: #000;
+$gray: #959595;
+$extra-dark-gray:#2d323d;
+$gray-cyan:#96a5c8;
+$title-color:#afb9c3;
+$border-dark:#1b1d21;
+$link-dark:#7289be;
+$box-shadow:rgba(85, 100, 125, 0.15);
+$lite-border :#c8c8c8;
+$border-blue :#327dc8;
+@mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+    border-radius: $radius;
+}
+@mixin  box-shadow($val){
+    -webkit-box-shadow: $val;
+    -moz-box-shadow: $val;
+    box-shadow: $val;
+}
+@mixin transition($val){
+    -webkit-transition: $val;
+    -moz-transition: $val;
+    -ms-transition: $val;
+    -o-transition: $val;
+    transition: $val;
+}
+@mixin transform($val){
+    -webkit-transform: $val;
+    -moz-transform: $val;
+    -ms-transform: $val;
+    -o-transform: $val;
+    transform: $val;
+}
+%flex-box{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+}
+%fl-wf{
+    width:100%;
+    float: left;
+}
+%flex-box-middle{
+    align-items: center;
+}
+%flex-box-center{
+    justify-content: center;
+}
+%flex-box-row-nowrap
+{
+    -webkit-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+}
+%middle{
+    position: absolute;
+    top:50%;
+    left:50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+%smooth {
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+
+%fl-fw {
+    float: left;
+    width: 100%;
+}
+
+%fl-fw-nmp {
+    float: left;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+%fl-fw-nmpl {
+    float: left;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+%fl-nmpl {
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+%fl-hw {
+    float: left;
+    width: 50%;
+}
+
+%fr-fw {
+    float: right;
+    width: 100%;
+}
+
+%fr-hw {
+    float: right;
+    width: 50%;
+}
+
+%pa-fw {
+    position: absolute;
+    width: 100%;
+}
+
+%pa-hw {
+    position: absolute;
+    width: 50%;
+}

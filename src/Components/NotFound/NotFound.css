@@ -1,0 +1,56 @@
+.wrapper-404 {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap; }
+
+.wrapper-404 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: #fafaff;
+  color: #2d323d;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  flex-flow: row wrap;
+  padding: 15px; }
+  .wrapper-404 .err-big {
+    display: block;
+    width: 100%;
+    font-weight: bold;
+    font-size: 50px; }
+  .wrapper-404 .err-small {
+    text-transform: uppercase;
+    width: 100%;
+    font-size: 16px; }
+
+.btn-home {
+  color: #2d323d;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  border: 2px solid #2d323d;
+  height: 40px;
+  width: 40px;
+  margin-top: 15px;
+  font-size: 18px;
+  padding: 4px;
+  -webkit-transition: 0.35s ease;
+  -moz-transition: 0.35s ease;
+  -ms-transition: 0.35s ease;
+  -o-transition: 0.35s ease;
+  transition: 0.35s ease; }
+  .btn-home:hover {
+    background-color: #2d323d;
+    color: #fff; }
+
+.err-logo {
+  width: 160px;
+  margin-bottom: 20px; }
+
+/*# sourceMappingURL=page-404.css.map */

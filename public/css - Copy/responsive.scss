@@ -1,0 +1,498 @@
+@import '_var';
+
+/* =========== Media Queries ============== */
+
+@media (min-width:1280px) {
+    .login-signup-left-coll-main,
+    .footer-inner,.login-header-menu > li{
+        font-size: 12px;
+    }
+    .login-signup-row .form-control{
+        font-size: 12px;
+    }
+    .login-signup-container{
+        width: 650px;
+    }
+}
+
+@media (min-width:1366px) {
+    .login-signup-row .form-control{
+        height: 35px;
+        font-size: 14px;
+    }
+    .login-signup-left-coll-main,
+    .footer-inner,.login-header-menu > li{
+        font-size: 14px;
+    }
+    .default-btn.db-small{
+        font-size: 14px;
+    }
+    .login-header-menu > li a .fa{
+        font-size: 18px;
+    }
+    .login-signup-right-logo img{
+        max-width: 180px;
+    }
+    .login-signup-left-coll{
+        width: 260px;
+    }
+    .login-signup-right-coll{
+        width: calc(100% - 260px);
+    }
+}
+
+@media (min-width:1600px) {
+    .login-signup-right-logo img{
+        max-width: 220px;
+    }
+    .login-signup-left-coll{
+        width: 280px;
+    }
+    .login-signup-right-coll{
+        width: calc(100% - 280px);
+    }
+}
+
+@media (min-width:1920px) {
+    .login-signup-row .form-control {
+        height: 48px;
+        font-size: 16px;
+    }
+    .login-signup-left-coll-main, .footer-inner,.login-header-menu > li {
+        font-size: 16px;
+    }
+    .default-btn.db-small{
+        font-size: 16px;
+        height: 40px;
+    }
+    .login-signup-login-with-list li a{
+        width: 40px;
+        height: 40px;
+        background-size: auto 20px;
+    }
+    .login-signup-container{
+        width: 800px;
+    }
+    .login-header-menu > li a .fa{
+        font-size: 22px;
+    }
+    .login-signup-right-logo img{
+        max-width: 240px;
+    }
+    .login-signup-left-coll{
+        width: 300px;
+    }
+    .login-signup-right-coll{
+        width: calc(100% - 300px);
+    }
+}
+
+@media (min-width:2560px) {}
+
+@media (max-width:1850px) {
+    .grid-block .grid-inner{
+        padding: 28px 15px;
+    }
+    .grid-block .grid{
+        padding:0 15px;
+    }
+}
+@media (max-width:1750px) {
+    .grid-block .grid .grid-content{
+        font-size: 14px;
+    }
+    .grid-block .grid .dual-rate .col-6 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+@media (max-width:1599px) {
+    .content-wrapper .padding-wrap{
+        padding: 65px 12.5%;
+    }
+    .shadow-box{
+        padding: 40px;
+    }
+    .default-btn{
+        min-width: 162px;
+        font-size: 18px;
+    }
+}
+@media (max-width:1550px) {
+    .grid-block .grid{
+        width: 33.3333%;
+        margin-bottom: 70px;
+    }
+}
+@media (max-width:1440px) {
+    .shadow-box{
+        padding: 30px;
+    }
+    .aside-nav ul li a{
+        margin-bottom: 12px;
+    }
+    .main-right-wrapper:not(.full-width) .login-header{
+        height: 60px;
+    }
+    .content-wrapper .padding-wrap {
+        padding: 78px 8.5%;
+    }
+    .aside-nav{
+        margin-top: 60px;
+    }
+    .aside-logo{
+        height: 60px;
+    }
+    .login-header-menu > li a{
+        padding: 5px 0;
+    }
+    .content-wrapper {
+        margin-top: 60px;
+    }
+    .dual-box-wrap .dual-box select.form-control {
+        height: 40px;
+    }
+    .dual-box-wrap .dual-box .coin-wrap li span {
+        font-size: 12px;
+    }
+    .dual-box-wrap .dual-box .select-box-group{
+        margin-top: 58px;
+    }
+    .dual-box-wrap .dual-box .coin-wrap{
+        margin-top: 0;
+    }
+    .dual-box-wrap .dual-box .coin-wrap li{
+        margin: 0 0 15px;
+    }
+    .login-header-menu.after-login .user-level{
+        font-size: 18px;
+    }
+    .login-header-menu.after-login .user-level img{
+        height: 35px;
+        width: 35px;
+    }
+    .main-right-wrapper:not(.full-width) .login-header{
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+    .login-header-menu > li a.ic-img{
+        height: 20px;
+        width: 20px;
+    }
+    .default-btn{
+        min-width: 152px;
+        font-size: 16px;
+    }
+    .default-btn.ico-btn img{
+        margin-left: 8px;
+    }
+    .grid-block .grid .grid-content .grid-ttl{
+        font-size: 18px;
+    }
+}
+@media (max-width:1366px) {
+    .login-header-menu.after-login .user-level {
+        font-size: 16px;
+    }
+    .default-btn.ico-btn img{
+        width: 22px;
+        height: 22px;
+    }
+}
+
+@media (max-width:1359px) {
+    .dual-box-wrap .dual-box .coin-wrap li{
+        width: 20%;
+    }
+}
+
+
+@media (max-width:1280px) {
+}
+
+@media (max-width:1279px) {
+    .grid-block .grid .dual-rate .col-6{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .grid-block .grid .dual-rate p{
+        margin-bottom: 8px;
+    }
+    .grid-block .grid .grid-content .grid-ttl {
+        font-size: 16px;
+    }
+    .grid-block .grid .grid-img .bordered-img{
+        width: 100px;
+        height: 100px;
+    }
+    .grid-block .grid .grid-img .bordered-img > img{
+        max-height: 70px;
+    }
+}
+
+@media (max-width:1199px) {
+    .content-wrapper .padding-wrap {
+        padding: 50px 5%;
+    }
+    .dual-box-wrap .dual-box .coin-wrap li {
+        width: 25%;
+    }
+    .normal-wrap {
+        padding: 40px 30px;
+    }
+}
+
+@media (max-width:1024px) {
+    .grid-block .grid .grid-content .grid-ttl {
+        font-size: 15px;
+    }
+    .grid-block .grid .grid-content {
+        font-size: 12.5px;
+    }
+}
+
+@media (max-width:1023px) {
+    html,
+    body {
+        font-size: 14px;
+    }
+    .login-header {
+        padding: 0 20px;
+    }
+    .footer-inner {
+        padding: 0 20px;
+    }
+    .login-signup-wrapper {
+        padding: 30px 20px;
+    }
+    .login-header-menu.after-login .user-level {
+        font-size: 16px;
+    }
+}
+
+@media (max-width:992px) {}
+
+@media (max-width:991px) {
+    .dual-box-wrap .dual-box{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .aside-nav ul li a{
+        font-size: 14px;
+    }
+    .dual-box-wrap .dual-box .sub-ttl{
+        font-size: 18px;
+    }
+    .dual-box-wrap .dual-box .select-box-group {
+        margin-top: 38px;
+    }
+    .dual-box-wrap .dual-box .select-box-group .form-group {
+        margin-bottom: 15px;
+    }
+    .main-title{
+        font-size: 20px;
+        padding-bottom: 15px;
+        margin-bottom: 30px;
+    }
+    .dual-box-wrap .dual-box select.form-control {
+        height: 35px;
+        font-size: 13px;
+    }
+    .login-header-menu.after-login .user-level {
+        font-size: 14px;
+    }
+    .login-header-menu > li a.ic-img {
+        height: 16px;
+        width: 16px;
+    }
+    .default-btn {
+        font-size: 14px;
+    }
+    .button-wrap{
+        margin-top: 10px;
+    }
+    .default-btn.ico-btn img{
+        width: 20px;
+        height: 20px;
+    }
+    .grid-block .grid{
+        width: 50%;
+    }
+}
+
+@media (max-width:980px) {}
+
+@media (max-width:979px) {}
+
+@media (max-width:768px) {}
+
+@media (max-width:767px) {
+    .login-header {
+        height: 40px;
+        padding: 0 15px;
+    }
+    .login-header-menu > li a {
+        padding: 8px 0;
+    }
+    .footer-inner {
+        flex-flow: column;
+        height: auto;
+        padding: 15px 15px;
+        text-align: center;
+    }
+    .footer-link {
+        width: 100%;
+        margin-top: 10px;
+        order: 2;
+    }
+    .footer-social {
+        width: 100%;
+        order: 1;
+    }
+    .footer-copyright {
+        margin-top: 10px;
+        width: 100%;
+        order: 3;
+    }
+    .login-signup-wrapper {
+        padding: 25px 15px;
+        margin-top: 40px;
+        min-height: calc(100vh - 140px);
+    }
+    .login-signup-container {
+        width: 450px;
+    }
+    .login-signup-left-coll {
+        width: 180px;
+        padding-left: 20px;
+    }
+    .login-signup-right-coll {
+        width: calc(100% - 180px);
+        padding-right: 20px;
+    }
+    .login-signup-row + .login-signup-row {
+        margin-top: 10px;
+    }
+    .login-Signup-form-bottom-section {
+        margin: 10px 0 0 0;
+    }
+    .login-signup-right-logo img {
+        display: inline-block;
+        max-width: 120px;
+    }
+    aside{
+        width: 220px;
+    }
+    .main-right-wrapper,
+    .main-right-wrapper:not(.full-width) .login-header{
+        width: calc(100% - 220px);
+    }
+    .aside-nav ul li a{
+        font-size: 12.5px;
+        margin-bottom: 8px;
+    }
+    .aside-nav > ul > li {
+        margin-bottom: 10px;
+    }
+    .dual-box-wrap .dual-box .sub-ttl{
+        font-size: 16px;
+    }
+    .grid-block .grid .grid-img .bordered-img {
+        width: 80px;
+        height: 80px;
+        margin-top: -55px;
+    }
+    .grid-block .grid .grid-img .bordered-img > img {
+        max-height: 50px;
+    }
+    .grid-block .grid-img {
+        margin-bottom: 20px;
+    }
+    .normal-wrap {
+        padding: 25px 15px;
+    }
+}
+
+@media (max-width:639px) {
+    .grid-block .grid {
+        width: 100%;
+    }
+}
+
+@media (max-width:580px) {
+    .main-right-wrapper, .main-right-wrapper:not(.full-width) .login-header {
+        width: 100%;
+    }
+    aside{
+        z-index: 3;
+        @include transform(translateX(-220px));
+        &.active{
+            @include transform(translateX(0));
+        }
+    }
+    .aside-open{
+        overflow: hidden;
+    }
+    .hamburger{
+        display: block;
+    }
+    .main-title{
+        font-size: 18px;
+    }
+    .dual-box-wrap .dual-box .sub-ttl {
+        font-size: 15px;
+    }
+    .dual-box-wrap .dual-box .select-box-group {
+        margin-top: 25px;
+    }
+}
+
+@media (max-width:480px) {}
+
+@media (max-width:479px) {
+    .login-signup-left-coll {
+        width: 100%;
+        padding: 0;
+        order: 1;
+    }
+    .login-signup-right-coll {
+        order: 2;
+        width: 100%;
+        padding: 20px 0 0 0;
+        border-right: 0;
+    }
+    .login-signup-right-logo {
+        text-align: center;
+    }
+    .main-title{
+        text-align: center;
+    }
+    .main-title:after{
+        left:0;
+        right:0;
+        margin: 0 auto;
+    }
+    .shadow-box{
+        text-align: center;
+    }
+    .button-wrap{
+        text-align: center;
+    }
+}
+
+@media (max-width:412px) {
+    .dual-box-wrap .dual-box .coin-wrap li {
+        width: 33.3333%;
+    }
+    .shadow-box {
+        padding: 20px;
+    }
+}
+
+@media (max-width:411px) {}
+
+@media (max-width:360px) {}
+
+@media (max-width:359px) {}
+
+@media (max-width:320px) {}

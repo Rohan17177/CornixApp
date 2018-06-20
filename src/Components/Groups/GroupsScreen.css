@@ -1,0 +1,129 @@
+.dual-box-wrap .grid-block {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap; }
+
+.dual-box-wrap .grid-block {
+  justify-content: center; }
+
+.dual-box-wrap .grid-block .grid .grid-img .bordered-img > img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); }
+
+.dual-box-wrap .grid-block, .dual-box-wrap .grid-block .grid-inner {
+  float: left;
+  width: 100%; }
+
+.dual-box-wrap .grid-block {
+  margin-top: 20px;
+  align-items: flex-start;
+  text-align: center; }
+  .dual-box-wrap .grid-block .grid-img {
+    margin-bottom: 30px; }
+  .dual-box-wrap .grid-block .grid-inner {
+    background-color: #fff;
+    padding: 28px;
+    -webkit-box-shadow: 0 5px 20px rgba(85, 100, 125, 0.15);
+    -moz-box-shadow: 0 5px 20px rgba(85, 100, 125, 0.15);
+    box-shadow: 0 5px 20px rgba(85, 100, 125, 0.15); }
+  .dual-box-wrap .grid-block .grid {
+    width: 25%;
+    float: left;
+    padding: 0 20px; 
+    margin-right: 0 }
+    .dual-box-wrap .grid-block .grid .report {
+      color: #7289be;
+      text-decoration: underline; }
+    .dual-box-wrap .grid-block .grid .dual-rate {
+      color: #333; }
+      .dual-box-wrap .grid-block .grid .dual-rate p {
+        font-weight: 300; }
+        .dual-box-wrap .grid-block .grid .dual-rate p span {
+          font-weight: 400; }
+    .dual-box-wrap .grid-block .grid .grid-img .bordered-img {
+      width: 122px;
+      height: 122px;
+      margin: 0 auto;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      border-radius: 50%;
+      border: 3px solid #327dc8;
+      padding: 12px;
+      margin-top: -70px;
+      background-color: #fff;
+      position: relative; }
+      .dual-box-wrap .grid-block .grid .grid-img .bordered-img > img {
+        max-width: 60%; }
+    .dual-box-wrap .grid-block .grid .grid-content {
+      color: #959595; }
+      .dual-box-wrap .grid-block .grid .grid-content .grid-ttl {
+        font-size: 20px;
+        font-weight: bold;
+        color: #7289be; }
+
+/***********************************************************************************************************/
+/*Responsive*/
+/***********************************************************************************************************/
+@media (max-width: 1850px) {
+  .dual-box-wrap .grid-block .grid-inner {
+    padding: 28px 15px; }
+
+  .dual-box-wrap .grid-block .grid {
+    padding: 0 15px; } }
+@media (max-width: 1750px) {
+  .dual-box-wrap .grid-block .grid .grid-content {
+    font-size: 14px; }
+  .dual-box-wrap .grid-block .grid .dual-rate .col-6 {
+    padding-left: 10px;
+    padding-right: 10px; } }
+@media (max-width: 1550px) {
+  .dual-box-wrap .grid-block .grid {
+    width: 33.3333%;
+    margin-bottom: 70px; } }
+@media (max-width: 1440px) {
+  .dual-box-wrap .grid-block .grid .grid-content .grid-ttl {
+    font-size: 18px; } }
+@media (max-width: 1279px) {
+  .dual-box-wrap .grid-block .grid .dual-rate .col-6 {
+    flex: 0 0 100%;
+    max-width: 100%; }
+  .dual-box-wrap .grid-block .grid .dual-rate p {
+    margin-bottom: 8px; }
+  .dual-box-wrap .grid-block .grid .grid-content .grid-ttl {
+    font-size: 16px; }
+  .dual-box-wrap .grid-block .grid .grid-img .bordered-img {
+    width: 100px;
+    height: 100px; }
+  .dual-box-wrap .grid-block .grid .grid-img .bordered-img > img {
+    max-height: 70px; } }
+@media (max-width: 1024px) {
+  .dual-box-wrap .grid-block .grid .grid-content .grid-ttl {
+    font-size: 15px; }
+  .dual-box-wrap .grid-block .grid .grid-content {
+    font-size: 12.5px; } }
+@media (max-width: 991px) {
+  .dual-box-wrap .grid-block .grid {
+    width: 50%; } }
+@media (max-width: 767px) {
+  .dual-box-wrap .grid-block .grid .grid-img .bordered-img {
+    width: 80px;
+    height: 80px;
+    margin-top: -55px; }
+  .dual-box-wrap .grid-block .grid .grid-img .bordered-img > img {
+    max-height: 50px; }
+  .dual-box-wrap .grid-block .grid-img {
+    margin-bottom: 20px; } }
+@media (max-width: 639px) {
+  .dual-box-wrap .grid-block .grid {
+    width: 100%; } }
